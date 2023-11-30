@@ -44,7 +44,8 @@ const dracoLoader = new DRACOLoader();
 const gui = new GUI({
     width: 300,
     title: 'Debug UI',
-    closeFolders: false
+    closeFolders: true,
+    close: true
 })
 window.addEventListener('keydown', (event) =>
 {
